@@ -11,10 +11,12 @@ public class Matematicas {
 
     public static double calcularPi(long numeroIntentos) {
 
-        long pi; //Usamos un long porque queremos que muestre los decimales
+        //Definimos las variables numericas de tipo "int" y "long".
+        long pi;
         int total = 0;
         int dentroCirculo = 0;
 
+        //
         double r = 0.5;
         Random rand = new Random();
         for (int i = 0; i < numeroIntentos; i++) {
